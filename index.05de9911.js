@@ -29,11 +29,11 @@ var e,
     (o.maxDistance = 400),
     (o.minDistance = 100);
   var c = new THREE.TextureLoader(),
-    l = c.load("../assets/space.jpg"),
-    m = c.load("../assets/galaxy.jpg"),
-    w = c.load("../assets/starShape.jpg"),
-    p = c.load("../assets/twinkleStar.png"),
-    h = c.load("../assets/twinkleStar2.png"),
+    l = c.load("assets/space.jpg"),
+    m = c.load("assets/galaxy.jpg"),
+    w = c.load("assets/starShape.jpg"),
+    p = c.load("assets/twinkleStar.png"),
+    h = c.load("assets/twinkleStar2.png"),
     v = new THREE.IcosahedronGeometry(35, 10),
     R = new THREE.MeshPhongMaterial({ map: m });
   (i = new THREE.Mesh(v, R)), t.add(i);
